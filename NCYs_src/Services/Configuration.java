@@ -2,6 +2,8 @@ package Services;
 
 import BusinessClasses.GlobalConfiguration;
 
+
+
 public class Configuration {
 
 	
@@ -10,8 +12,8 @@ public class Configuration {
 	{
 	//	System.out.println(Integer.parseInt(profile));
 		GlobalConfiguration GC = new GlobalConfiguration(Integer.parseInt(profile));
-		
-		
+
+         
 		return GC.toString();
 		
 	}

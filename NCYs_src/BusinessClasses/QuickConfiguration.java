@@ -16,12 +16,14 @@ public class QuickConfiguration {
 
 	@Override
 	public String toString() {
-		return " [Id_Application=" + Id_Application + ", Position=" + Position + ", Active=" + Active
-				+ "]";
+		return " {\"Id_Application\" :" + Id_Application + ",\n"
+				+ "\"Position\":" + Position + ",\n"
+				+ " \"Active\":" + Active+"\n"
+				+ "}";
 	}
 	
 	
 	
-	
 }
+	
 

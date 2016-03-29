@@ -13,6 +13,7 @@ public class Main {
     	});
     	
     	get("/configuration/all/:idConf", (request, response) -> {
+    		CorsFilter.apply();
     	    return Configuration.getAllConfiguration(request.params(":idConf"));
     	});
     }
