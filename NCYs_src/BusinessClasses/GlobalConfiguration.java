@@ -1,6 +1,8 @@
 package BusinessClasses;
 
 import java.sql.Connection;
+import com.google.gson.Gson;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;

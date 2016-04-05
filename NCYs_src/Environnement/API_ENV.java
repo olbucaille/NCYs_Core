@@ -2,7 +2,7 @@ package Environnement;
 
 public class API_ENV {
 	
-	public static String MAIN_BDD_NAME="NCYs_CORE_BDD.db";
+	public static String MAIN_BDD_NAME="NCYs_CORE_BDD.sql";
 	private static API_ENV  instance = null;
 	
 	private API_ENV()
